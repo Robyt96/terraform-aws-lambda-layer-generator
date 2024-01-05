@@ -41,7 +41,7 @@ provider "aws" {
 }
 
 module "lambda_layer_generator" {
-  source = ""
+  source  = "Robyt96/lambda-layer-generator/aws"
   version = "x.y.z" # check correct version
 
   bucket_name     = "my-bucket-for-layers-zip"
